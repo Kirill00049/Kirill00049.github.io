@@ -162,8 +162,7 @@ body{
     width:21vw;
     height: auto;
     padding: 5px;
-      margin: 0 auto; 
-    
+      margin: 0 auto;
 }
 
 .product-price{
@@ -172,25 +171,6 @@ font-weight: 500;
 margin-top: 14px;
 letter-spacing: 1px;
 }
-
-.product-btn{
-    font-size:14px;
-    border-radius: 30px;
-    background-color: #976ea6;
-    border: 2px solid #976ea6;
-    color: #fff;
-    padding: 6px 41px;
-    text-decoration: none;
-    transition: 0.2s ease;
-    cursor: pointer;
-    margin-bottom: 25px;
-}
-
-.product-btn:hover{
-    background-color: #fff;
-    color: #976ea6;
-}
-
 
 .btn-center{
     margin: 15px;
