@@ -1,0 +1,80 @@
+@media(max-width : 700px){
+    .main-footer{
+    flex-direction: column;
+    }
+}
+footer{
+    display: flex;
+}
+.footer-top-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42 0px;
+}
+
+.footer-info span{
+    font-size: 16px;
+    margin-left: 36px;
+}
+.footer-info span:first-child{
+    font-size: 14px;
+}
+.footer-info button{
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #976ea6;
+    padding: 10px 25px;
+    margin-left: 36px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.footer-info button:hover{
+    background-color: #976ea6;
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-item{
+    margin: 20px; 
+}
+
+.social-link{
+    border:2px solid #976ea6;
+    border-radius: 100%;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+}
+.social-tg{
+    background-image: url(/Images/telegram.png);
+    background-size: 30px;
+    background-position: 6px center;
+}
+.social-vk{
+    background-image: url(/Images/vk.png);
+    background-position: 6px center;
+    background-size: 30px;
+}
+.social-gt{
+    background-image: url(/Images/github.png);
+    background-position: 6px center;
+    background-size: 30px;
+}
+.social-in{
+    background-image: url(/Images/instagram.png);
+    background-position: 6px center;
+    background-size: 30px;
+}
+
+.social-item a:hover{
+        background-color: #976ea6;
+} 
