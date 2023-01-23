@@ -3,7 +3,7 @@
 var slideIndex = 1;
 console.log(window.outerWidth);
 
-if(window.outerWidth>800){
+if(window.outerWidth>300){
     showSlides(slideIndex);
 }
 /* Функция увеличивает индекс на 1, показывает следующй слайд*/
