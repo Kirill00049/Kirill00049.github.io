@@ -213,6 +213,10 @@ letter-spacing: 1px;
     box-shadow: none !important;
 }
 
+.city{
+    min-width: 188.55px;
+}
+
 .slider .prev, .slider .next {
     cursor: pointer;
     position: absolute;

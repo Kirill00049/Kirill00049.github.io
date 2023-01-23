@@ -33,6 +33,10 @@
 
 }
 
+.city{
+    min-width: 188.55px;
+}
+
 .header a:hover{
     color: #976ea6;
 }

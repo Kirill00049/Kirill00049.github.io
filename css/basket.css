@@ -25,6 +25,10 @@
     font-size: 18px;
 }
 
+.city{
+    min-width: 188.55px;
+}
+
 .header a{
     text-decoration: none;
     color: black;/*цвет ссылок*/

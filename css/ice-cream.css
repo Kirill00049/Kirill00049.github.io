@@ -143,6 +143,10 @@ body{
     
 }
 
+.city{
+    min-width: 188.55px;
+}
+
 .product-price{
 font-size: 16px;
 font-weight: 500;
