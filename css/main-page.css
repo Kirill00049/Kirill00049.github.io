@@ -85,7 +85,7 @@ header{
 
 body{
     /* подключаем шрифты, которые в основном будут использоваться */
-    font-family: 'Roboto', sans-serif;
+    font-family: cursive;
     background-color: rgb(231 231 231);
     font-size: 14px;
     margin: 0;
@@ -196,7 +196,7 @@ body{
 .product-title{
     text-align: center;
     display: flex;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .product-img img{   
@@ -213,6 +213,10 @@ font-size: 16px;
 font-weight: 500;
 margin-top: 14px;
 letter-spacing: 1px;
+}
+
+.quantity{
+    font-size: 20px;
 }
 
 .product-btn{
@@ -240,7 +244,7 @@ letter-spacing: 1px;
     }
 }
 
-@media(max-width : 700px){
+@media(max-width : 740px){
     .img01{
         position: fixed;
         opacity: 0;
@@ -336,8 +340,8 @@ letter-spacing: 1px;
     }
 
     .product-img img{
-        width:20vw;
-        height:20vw;
+        width:60vw;
+        height:60vw;
     } 
 
     .city, .phone{
@@ -348,12 +352,8 @@ letter-spacing: 1px;
         padding-top: 20px!important;
     }
 
-    .product-title{
-        max-width: 20vw;
-    }
-
     .product{
-        width: 45vw;
+        width: 90vw;
         padding: 5px!important;
     }
 
@@ -366,8 +366,12 @@ letter-spacing: 1px;
     }
 
     .product-title{
-        font-size: 14px!important;
+        max-width: 50vw;
+        margin-top: 0;
+        font-size: 20px!important;
     }
+
+    
 }
 
 @media (max-width : 500px) {
@@ -395,6 +399,43 @@ letter-spacing: 1px;
         margin-left: 155px;
         opacity: 1;
         visibility: visible;
+    }
+
+    .text{
+        outline: none !important;
+        color: rgba(11, 77, 99, 0.845);
+        font-size: 28px;
+        padding: 20px 0;
+        font-family: 'Rubik Bubbles', cursive;
+    }
+
+    .container{
+        margin-top: 3px;
+        position: relative;
+        background-image: url("/Images/franchise_bg.jpg");
+        padding: 3%;
+        padding-bottom: 8%;
+        padding-left: 8%;
+    }
+    
+    .text1{
+        max-width: 520px;
+        outline: none !important;
+        color: rgb(11, 77, 99, 0.845);
+        left: 18%; 
+        padding-bottom: 20px;
+        font-size: 22px;
+        font-family: 'Rubik Bubbles', cursive;
+    }
+    
+    .text2{
+        max-width: 420px;   
+        outline: none !important;
+        color: rgb(11, 77, 99, 0.845);
+        left: 18%; 
+        font-size: 20px;
+        font-family: 'Rubik Bubbles', cursive;
+        text-decoration-line: underline;
     }
 }
 

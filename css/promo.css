@@ -185,7 +185,7 @@ letter-spacing: 1px;
     margin: auto;
 }
 
-.slider .item img {
+.slider .item :first-child {
     margin:80px 0;
     object-fit: cover;
     width: 100%;
@@ -195,6 +195,12 @@ letter-spacing: 1px;
 
 .city{
     min-width: 188.55px;
+}
+
+.slider .item :last-child{
+    visibility: hidden;
+    height: 0;
+    margin: 0;
 }
 
 .slider .prev, .slider .next {
@@ -342,6 +348,7 @@ letter-spacing: 1px;
         display: none;
     }
 
+
     label #open-menu,label #close-menu{
         position: fixed;
         z-index: 1;
@@ -394,6 +401,22 @@ letter-spacing: 1px;
         background: #976ea6;
         color: black;
         transition:  .5s ease;
+    }
+
+    .slider .item :first-child {
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+    }
+
+    .slider .item :last-child {
+        margin: 40px 0;
+        visibility: visible;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border: none !important;
+        box-shadow: none !important;
     }
 
     #check:checked ~ label #open-menu{

@@ -78,7 +78,7 @@ header{
 
 body{
     /* подключаем шрифты, которые в основном будут использоваться */
-    font-family: 'Roboto', sans-serif;
+    font-family: cursive;
     background-color: rgb(231 231 231);
     font-size: 14px;
     margin: 0;
@@ -133,7 +133,7 @@ body{
 .product-title{
     text-align: center;
     display: flex;
-    font-size: 14px;
+    font-size: 15px;
 }
 .product-img img{
     display: block;
@@ -142,6 +142,10 @@ body{
     padding: 5px;
       margin: 0 auto; /*картинка по центру*/
     
+}
+
+.quantity{
+    font-size: 20px;
 }
 
 .product-price{
@@ -254,17 +258,14 @@ margin-bottom: 0;
         visibility: visible;
     }
     .product-img img{
-        width:20vw;
-        height:20vw;
+        width:60vw;
+        height:60vw;
     } 
     .city, .phone{
         display: none;
     }
     .catalog{
         padding-top: 20px!important;
-    }
-    .product-title{
-        max-width: 20vw;
     }
     
     .product{
@@ -274,7 +275,9 @@ margin-bottom: 0;
         padding:5 25px!important;
     }
     .product-title{
-        font-size: 14px!important;
+        margin: 0;
+        max-width: 50vw;
+        font-size: 20px!important;
     }
 }
 
