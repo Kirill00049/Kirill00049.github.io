@@ -227,8 +227,8 @@ letter-spacing: 1px;
     visibility: hidden;
   }
   .answer{
+    font-size: 20px;
       display: none;
-      font-family: cursive;
   }
 
   .check-faq:checked ~ label .open-faq{
@@ -262,8 +262,7 @@ letter-spacing: 1px;
   }
 .question{
     padding-right: 35px;
-    font-size: 16px;
-    font-family: cursive;
+    font-size: 22px;
     color: #976ea6;
     font-weight: 700;
 }

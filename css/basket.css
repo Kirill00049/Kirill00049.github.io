@@ -78,7 +78,7 @@ header{
 
 body{
     /* подключаем шрифты, которые в основном будут использоваться */
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(231 231 231);
     font-size: 14px;
     margin: 0;
