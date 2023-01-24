@@ -242,7 +242,7 @@ div p {
 
 @media (max-width : 420px){
     .map{
-        margin: 24% 0 24% 5%;
+        margin: 24% 0 24% 7%;
     }
     .map [width]{
         width: 330px;
